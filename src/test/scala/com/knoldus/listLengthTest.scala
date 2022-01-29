@@ -4,7 +4,7 @@ import org.scalatest.funsuite.AnyFunSuite
 
 class listLengthTest extends AnyFunSuite {
 
-  val listLength = new LengthOfList
+  val listLength = new FindLength
 
   test("check the condition if there is a Int type List") {
     assert(listLength.recursiveLength(List(1, 2, 3, 4, 6, 7, 7)) == 7)
