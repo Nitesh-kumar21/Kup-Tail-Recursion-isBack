@@ -2,8 +2,7 @@ package com.knoldus
 
 import org.scalatest.funsuite.AnyFunSuite
 
-class listLengthTest extends AnyFunSuite {
-
+class FindLengthTest extends AnyFunSuite {
   val listLength = new FindLength
 
   test("check the condition if there is a Int type List") {
@@ -33,6 +32,4 @@ class listLengthTest extends AnyFunSuite {
   test("check weather Set is empty") {
     assert(listLength.recursiveLength(Set()) == 0)
   }
-
 }
-
