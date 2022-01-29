@@ -8,5 +8,4 @@ class FindLength {
     if (combination.isEmpty) accumulator
     else recursiveLength(combination.tail, accumulator + 1)
   }
-
 }
